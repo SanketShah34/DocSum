@@ -14,7 +14,7 @@ def do_summarize(contents):
     doc_length = len(document.split())
     logger.info("Document Length: " + str(doc_length))
 
-    min_length = int(doc_length/3)
+    min_length = 100
     logger.info("min_length: " + str(min_length))
     max_length = min_length+200
     logger.info("max_length: " + str(max_length))
